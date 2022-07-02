@@ -7,6 +7,6 @@ public class Main {
         frame.setSize(500, 500);
         frame.setResizable(false);
         frame.setTitle("Useless Frame");
-        
+        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
     }
 }
